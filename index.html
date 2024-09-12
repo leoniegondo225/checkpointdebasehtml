@@ -3,55 +3,103 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>e-commerce</title>
+    <title>COUTURE EXPERT</title>
 </head>
 
 <body>
+    <!-------Bare de navigation------------>
     <nav>
         <ul>
-            <li>Accueil</li>
-            <li>A propos</li>
-            <li>Travail</li>
-            <LI>CV</LI>
-            <li>contact</li>
+            <a href="#accueil">
+                <li>Accueil</li>
+            </a>
+            <a href="#Apropos">
+                <li>A propos</li>
+                <a href="#Travail">
+                    <li>Travail</li>
+                </a>
+                <a href="#CV">
+                    <li>CV</li>
+                </a>
+                <a href="#Contact">
+                    <li>Contact</li>
+                </a>
         </ul>
     </nav>
-    <h1>Devenir experts pour savoir habillé</h1>
-    <section>
-        <form action="" method="post">
-            <h2>A propos</h2>
-            <p>Nous sommes une Entreprise <strong>(COUTURE EXPERT)</strong> specialisé dans le dommaine de la couture.<br/>c'est une entreprise qui est
-                chargé de recruté des jeune couturier et couturirier debutant afin de mieux les formé au metier de la
-                couture pour enfin de dévenir des experts dans le domaine de la couture.</p>
-               <a href=""> <img src="https://www.cordemais.fr/medias/2021/12/Debuter-machine-coudre.jpg" alt="Coutureexpert"></a>
-        </form>
+    <!---------------l'entête-------------->
+    <header>
+        </i>
+        <h1 style="color: blue;">Devenir experts pour savoir habillé</h1></i>
+        <iframe width="681" height="383" src="https://www.youtube.com/embed/uX5ZYSWktnQ"
+            title="LES BASES DE LA COUTURE | APPRENDRE À COUDRE PART.1" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </header>
+    <!-----------Les section---------------->
+    <section id="Apropos">
+        <h2>A propos</h2>
+        <p>Nous sommes une Entreprise <strong>(COUTURE EXPERT)</strong> specialisé dans le dommaine de la
+            couture.<br />c'est une entreprise qui est
+            chargé de recruté des jeune couturier et couturirier debutant afin de mieux les formé au metier de la
+            couture pour enfin de dévenir des experts dans le domaine de la couture.</p>
+        <a href=""> <img src="https://www.cordemais.fr/medias/2021/12/Debuter-machine-coudre.jpg"
+                alt="Coutureexpert"></a>
+    </section id=>
+    <section id="Travail">
+        <h2>Travail</h2>
+        <li>Avoir de la créactivité</li>
+        <li>Etre de bonne moralité</li>
+        <li>Avoir de l'experience</li>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/kNkwnZDXM4s" autoplay="true" title="Fiers de nos métiers d&#39;excellence - Les métiers de la haute couture" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section id="CV">
+        <h2><u>CV</u></h2>
+        <section>
+            <div class="header">
+                <h2><u>Formulaire d'admission</u></h2>
+            </div>
+            <form id="loginForm" method="POST" action="">
+                <div class="input-group">
+                    <label for="name"> Nom</label>
+                    <input type="text" id="name" name="nom" placeholder="Nom" required>
+                </div>
+                <div class="input-group">
+                    <label for="surname">Prénom</label>
+                    <input type="text" id="surname" name="prenom" placeholder="Prenom" required>
+                </div>
+                <div class="input-group">
+                    <label for="phone">téléphone</label>
+                    <input type="tel" id="phone" name="numero" placeholder="Numéro de téléphone" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name='email' placeholder="Email" required>
+                </div>
     </section>
     <section>
-        <form action="">
-            <h2>Travail</h2>
-            <li>Avoir de la créactivité</li>
-            <li>Etre de bonne moralité</li>
-            <li>Avoir de l'experience</li>
-        </form>
+        <h2><u>CONCTAT</u></h2>
+        <ul>
+            <li>+225 02 25 54 63 56</li>
+            <li>+264 46 38 35 29 14</li>
+            <li>+233 65 26 64 24 98</li>
+        </ul>
     </section>
-    <section>
-        <form action="">
-            <h2>CV</h2>
-
-        </form>
-    </section>
+    <img src="c:\Users\LEONIE\Desktop\GOMYCODE\téléchargement.jpeg" alt="couture">
+    <!----------le pied de page----------->
     <footer>
         <h3>À propos</h3>
-        <div>
+        <div id="Apropos">
             <p>Découvrez plus sur notre entreprise, notre mission et nos valeurs.</p>
             <a href="#">En savoir plus</a>
         </div>
         <div>
             <h3>Contact</h3>
-                <p>123 Rue Cocody, Abidjan, Côte d'Ivoire</p>
-               <a href="#"><p>coutureexpertgmail@.com</p></a>
-                <p>Téléphone: +225 456 7890</p>
-            </div>
+            <p>129 Rue Riviera, Abidjan, Côte d'Ivoire</p>
+            <a href="#">
+                <p>coutureexpertgmail@.com</p>
+            </a>
+            <p>Téléphone: +225 456 7890</p>
+        </div>
         </div>
         <div>
             <h3>Suivez-nous</h3>
@@ -59,10 +107,10 @@
             <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
             <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
         </div>
-    </div>
-    <div>
-        <p>&copy; 2024 @Coutureexpert. Tous droits réservés.</p>
-    </div>
+        </div>
+        <div>
+            <p>&copy; 2024 @Coutureexpert. Tous droits réservés.</p>
+        </div>
     </footer>
 </body>
 
