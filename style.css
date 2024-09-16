@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+/* ----------------------------------Le reset css--------------------------------------- */
+::before, :after, *{
+    margin: 5;
+    padding: 5;
+    border: none;
+    text-decoration:none;
+    text-decoration-style: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: thin;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    font-family: 'Times New Roman', Times, serif;/*Le style de la police de la page de la page*/
+    line-height: 1.6; /*permet de mettre l'écart entre les textes*/
+    background: rgb(247, 236, 221); /*La couleur de l'arriere plan de la page*/
+    background-size: cover;
+}
